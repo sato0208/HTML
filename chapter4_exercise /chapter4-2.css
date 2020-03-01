@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.header{
+	height: 550px;
+	width:100%;
+}
+
+.header-top{
+	height: 50px;
+	width:100%;
+	background-color:red;
+}
+
+.header-bottom{
+	height: 500px;
+	width:100%;
+	background-color:orange;
+}
+
+.main{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.blog{
+	height: 1400px;
+	width:500px;
+	background-color: green;
+	margin: 0 auto;
+}
+
+.blog-left{
+	height: 1400px;
+	width: 230px;
+	background-color: palegreen;
+	float: left;
+}
+
+.blog-right{
+	height: 1400px;
+	width: 230px;
+	background-color:palegreen;
+	float:right;
+}
+
+.footer{
+	height: 50px;
+	width: 100%;
+	background-color: blue;
+}

@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	color: #6c6b6b;
+}
+
+.main{
+	width: 840px;
+	margin: 0 auto;
+}
+
+.main-visual1{
+	width: 100%;/*横幅*/
+	height:200px;/*高さ*/
+	background-image: url(img/box1.jpg);
+	background-size: cover;/*縦横比率を維持したまま背景領域を埋め尽くす*/
+	background-position: center;
+}
+
+.main-visual2{
+	width: 100%;/*横幅*/
+	height:200px;/*高さ*/
+	background-image: url(img/box2.jpg);
+	background-size: cover;/*縦横比率を維持したまま背景領域を埋め尽くす*/
+	background-position: center;
+}
+
+.main-visual3{
+	width: 100%;/*横幅*/
+	height:200px;/*高さ*/
+	background-image: url(img/box3.jpg);
+	background-size: cover;/*縦横比率を維持したまま背景領域を埋め尽くす*/
+	background-position: center;
+}
+
+.main-visual4{
+	width: 100%;/*横幅*/
+	height:200px;/*高さ*/
+	background-image: url(img/box4.jpg);
+	background-size: cover;/*縦横比率を維持したまま背景領域を埋め尽くす*/
+	background-position: center;
+}
